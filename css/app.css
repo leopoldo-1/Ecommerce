@@ -1,0 +1,100 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* 1 rem = 10px */
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5rem;
+}
+
+/* Globals */
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  background: rgb(167, 245, 245);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Header and navigation */
+.site-name {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  text-align: center;
+  font-size: 4rem;
+}
+
+.site-name span {
+  color: #037bc0;
+}
+
+.navigation-container {
+  border-top: 0.1rem solid #e1e1e1;
+}
+
+.main-navigation {
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.hero {
+  background-image: url("../img/principal.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 55rem;
+}
+
+/* Categories */
+.categories h2 {
+  text-align: center;
+}
+
+.category a {
+  display: block;
+  text-align: center;
+  padding: 2rem;
+  font-size: 2rem;
+}
+
+/* .category:hover a{ */
+.category a:hover {
+  background: #037bc0;
+  color: #ffffff;
+  border-bottom-right-radius: 1rem;
+}
+
+.categories-list {
+  /* background: rgb(173, 248, 173); */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+/* Estilos para crear estilos CSS */
+/* modulos, BEM, SMACSS  */
